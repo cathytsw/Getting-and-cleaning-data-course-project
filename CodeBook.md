@@ -13,7 +13,7 @@ The following data transformations are executed by running the script "run_analy
 The tidy data contains 180 rows and 88 columns. This dataset only shows the mean and standard deviation(Std) of each measurement. Each row represents the averaged variable for each activity and each subject.
 
 #### Subjects are named by ID ranged from 1 to 30. 
-#### There are 6 types of activities including: 
+#### There are 6 types of activities: 
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
