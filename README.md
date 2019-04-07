@@ -12,16 +12,16 @@ The following data transformations are executed by running the script "run_analy
 ### Variables in the tidy data
 The tidy data contains 180 rows and 88 columns. This dataset only shows the mean and standard deviation(Std) of each measurement. Each row represents the averaged variable for each activity and each subject.
 
-##### Subjects are named by ID ranged from 1 to 30. 
-##### There are 6 types of activities including: 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+#### Subjects are named by ID ranged from 1 to 30. 
+#### There are 6 types of activities including: 
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
-##### There are 43 measurements for each activity.  Average of Mean and Std for each measurements are listed in this dataset. Therefore, this datset contains the following 88 columns:
+#### There are 43 measurements for each activity.  Average of Mean and Std for each measurements are listed in this dataset. Therefore, this datset contains the following 88 columns:
  [1] "Activitylabel"                                             
  [2] "Subject"                                                   
  [3] "TimeBodyAccelerometerMean()-X"                             
@@ -111,7 +111,7 @@ The tidy data contains 180 rows and 88 columns. This dataset only shows the mean
 [87] "AngleBetween(Y,GravityMean)"                               
 [88] "AngleBetween(Z,GravityMean)" 
 
-##### Class of variables:
+#### Class of variables:
 "ActivityLabel" is character.
 "Subject" is integer.
 The remaining 86 variables are numeric.
